@@ -1,13 +1,13 @@
 @extends('students.layout')
 
 @section('content')
-    <div class="row">
+    <div class="row" styles="margin-top:10rem">
         <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
-                <h2>Edit Product</h2>
+            <div class="pull-left" style="text-align:center">
+                <h2>Edit Data</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('students.index') }}">Back</a>
+                <a class="btn btn-primary" href="{{ route('students.index') }}" >Back</a>
             </div>
         </div>
     </div>
