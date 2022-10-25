@@ -6,8 +6,8 @@
             <div class="pull-left" style="text-align:center">
                 <h2>Edit Data</h2>
             </div>
-            <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('students.index') }}" >Back</a>
+            <div class="pull-left">
+                <a class="back-btn-edit" href="{{ route('students.index') }}" >Back</a>
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="submit-btn ">Submit</button>
             </div>
         </div>
 

@@ -8,7 +8,7 @@
     </div>
 
     <div class="pull-right">
-        <a class="btn btn-primary" href="{{ route('students.index') }}">Back</a>
+        <a class="btn-grad" href="{{ route('students.index') }}">Back</a>
     </div>
     </div>
     @if ($errors->any())
@@ -56,7 +56,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="submit-btn">Submit</button>
             </div>
         </div>
     </form>
